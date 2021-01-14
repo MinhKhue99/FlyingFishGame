@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">Flying Fish</string>
+    <string name="game_over" translatable="false">Game Over</string>
+    <string name="rule" translatable="false">How to play Flying Fish?</string>
+    <string name="rule1" translatable="false">Keep click on screen to make the fish fly up and down</string>
+    <string name="rule2" translatable="false">Take yellow ball, green ball, white ball and black ball to get score</string>
+    <string name="rule3" translatable="false">Each balls the fish hits you will get 5, 10, 15, 20, 25 cores</string>
+    <string name="rule4" translatable="false">Hit the  1 red ball will make the fish losing 1 life</string>
+    <string name="rule5" translatable="false">Googluck!!!</string>
+</resources>

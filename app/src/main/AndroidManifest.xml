@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.minhkhue.flyingfish">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_app_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon_app_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FlyingFish">
+        <activity android:name=".HardLevelActivity" />
+        <activity android:name=".MediumLevelActivity" />
+        <activity android:name=".EasyLevelActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".GameOverActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
